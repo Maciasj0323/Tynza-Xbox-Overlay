@@ -1,10 +1,8 @@
 .controller.xbox {
-    background: url("https://raw.githubusercontent.com/Maciasj0323/Tynza-Xbox-Overlay/main/base.png") center center / contain no-repeat;
+    background: url("base.png") center center / contain no-repeat;
     width: 1933px;
     height: 989px;
 }
-
-/* Invisible input zones — the base image provides the appearance */
 
 .xbox .trigger {
     width: 88px;
