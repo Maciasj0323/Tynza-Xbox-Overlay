@@ -1,17 +1,19 @@
 .controller.xbox {
+    width: 750px !important;
+    height: 630px !important;
+
     background-image: url("https://maciasj0323.github.io/Tynza-Xbox-Overlay/base.png") !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    background-size: contain !important;
-
-    width: 1933px !important;
-    height: 989px !important;
+    background-size: 750px 630px !important;
 }
 
+/* Hide Gamepad Viewer's original visual assets */
 .xbox .trigger,
 .xbox .bumper,
 .xbox .button,
 .xbox .stick,
 .xbox .face {
     opacity: 0 !important;
+    background-image: none !important;
 }
