@@ -1,36 +1,17 @@
 .controller.xbox {
-    background: url("base.png") center center / contain no-repeat;
-    width: 1933px;
-    height: 989px;
+    background-image: url("https://maciasj0323.github.io/Tynza-Xbox-Overlay/base.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+
+    width: 1933px !important;
+    height: 989px !important;
 }
 
-.xbox .trigger {
-    width: 88px;
-    height: 121px;
-    opacity: 0;
-}
-
-.xbox .bumper {
-    width: 170px;
-    height: 61px;
-    opacity: 0;
-}
-
-.xbox .button {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    opacity: 0;
-}
-
-.xbox .stick {
-    position: absolute;
-    height: 83px;
-    width: 83px;
-    opacity: 0;
-}
-
+.xbox .trigger,
+.xbox .bumper,
+.xbox .button,
+.xbox .stick,
 .xbox .face {
-    position: absolute;
-    opacity: 0;
+    opacity: 0 !important;
 }
