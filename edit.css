@@ -1,0 +1,38 @@
+.controller.xbox {
+    background: url("https://raw.githubusercontent.com/Maciasj0323/Tynza-Xbox-Overlay/main/base.png") center center / contain no-repeat;
+    width: 1933px;
+    height: 989px;
+}
+
+/* Invisible input zones — the base image provides the appearance */
+
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    opacity: 0;
+}
+
+.xbox .bumper {
+    width: 170px;
+    height: 61px;
+    opacity: 0;
+}
+
+.xbox .button {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    opacity: 0;
+}
+
+.xbox .stick {
+    position: absolute;
+    height: 83px;
+    width: 83px;
+    opacity: 0;
+}
+
+.xbox .face {
+    position: absolute;
+    opacity: 0;
+}
